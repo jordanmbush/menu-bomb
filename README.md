@@ -1,59 +1,16 @@
-# NAMING CONVENTIONS
-- Methods
-  - camelCase
-- CSS Classes
-  - kebab-case
-  - Use namespace of components
-    - 
-- Properties
-  - camelCase
-- Functions
-  - camelCase
-- Variables
-  - camelCase
-- SQL variables
-  - snake_case
+# menuBOMB
+Menu Bomb is a web application that allows restaurants to easily host their menu online, without the hastle of setting up a site from scratch. Customers can search for different restaurants by name, or item, and browse all menu items easily. Customers can also easily place orders, and add notes to their orders for the restaurant to see. Restuarants can review their dashboard to see new orders, and update their status for the customer to see.
+Menu Bomb was a team built application. It uses the MVC design pattern, and was developed with agile principles, and the SCRUM methodology.
 
-# FRONT END
-- Libraries
-  - Material-UI
-  - currency.js
-  - cloudinary
-
-
-
-- Components
-  - User Login
-    - Customer Registration
-    - Restaurant Registration
-  - Restaurant Dashboard
-  - Menu Wizard/Creator
-  - shared
-    - Header
-    - Footer
-    - menu items
-    - buttons
-    - 
-  - 
-
+## Technologies
+- React
+- Node
 - Redux
-
-# BACK END
-
-- Modules
-  - massive 
-  - bcrypt
-  - express
-  - express-session 
-  - pg-simple-connect
-  - dotenv
-  
-- Endpoints
-
-- Controllers
-
-- Middlewares
-
-# DATABASE
-
-- Schema
+- redux-promise-middleware
+- Express
+- Massive - Data access tool for the Postgres database
+- axios - promise library for ajax calls
+- express-session - used for session management
+- bCrypt - for authentication
+- material-ui
+- styled-components
